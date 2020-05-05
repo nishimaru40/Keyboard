@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="50dp">
+
+    <Row>
+        <Key android:keyLabel="1" android:keyEdgeFlags="left" android:codes="49"/>
+        <Key android:keyLabel="2" android:codes="50"/>
+        <Key android:keyLabel="3" android:codes="51"/>
+        <Key android:keyLabel="4" android:codes="52"/>
+        <Key android:keyLabel="5" android:codes="53"/>
+        <Key android:keyLabel="6" android:codes="54"/>
+        <Key android:keyLabel="7" android:codes="55"/>
+        <Key android:keyLabel="8" android:codes="56"/>
+        <Key android:keyLabel="9" android:codes="57"/>
+        <Key android:keyLabel="0" android:keyEdgeFlags="right" android:codes="48"/>
+    </Row>
+
+    <Row>
+        <Key android:keyLabel="ๆ" android:keyEdgeFlags="left" android:codes="3654"/>
+        <Key android:keyLabel="ๅ" android:codes="3653"/>
+        <Key android:keyLabel="ภ" android:codes="3616"/>
+        <Key android:keyLabel="ถ" android:codes="3606"/>
+        <Key android:keyLabel="ุ" android:codes="3640"/>
+        <Key android:keyLabel="ึ" android:codes="3638"/>
+        <Key android:keyLabel="ค" android:codes="3588"/>
+        <Key android:keyLabel="ต" android:codes="3605"/>
+        <Key android:keyLabel="จ" android:codes="3592"/>
+        <Key android:keyLabel="ข" android:codes="3586"/>
+        <Key android:keyLabel="ช" android:keyEdgeFlags="right" android:codes="3594"/>
+    </Row>
+
+    <Row>
+        <Key android:keyLabel="ไ" android:keyEdgeFlags="left" android:codes="3652"/>
+        <Key android:keyLabel="ำ" android:codes="3635"/>
+        <Key android:keyLabel="พ" android:codes="3614"/>
+        <Key android:keyLabel="ะ" android:codes="3632"/>
+        <Key android:keyLabel="ั" android:codes="3633"/>
+        <Key android:keyLabel="ี" android:codes="3637"/>
+        <Key android:keyLabel="ร" android:codes="3619"/>
+        <Key android:keyLabel="น" android:codes="3609"/>
+        <Key android:keyLabel="ย" android:codes="3618"/>
+        <Key android:keyLabel="บ" android:codes="3610"/>
+        <Key android:keyLabel="ล" android:keyEdgeFlags="right" android:codes="3621"/>
+    </Row>
+
+    <Row>
+        <Key android:keyLabel="ฟ" android:keyEdgeFlags="left" android:codes="3615"/>
+        <Key android:keyLabel="ห" android:codes="3627"/>
+        <Key android:keyLabel="ก" android:codes="3585"/>
+        <Key android:keyLabel="ด" android:codes="3604"/>
+        <Key android:keyLabel="เ" android:codes="3648"/>
+        <Key android:keyLabel="้" android:codes="3657"/>
+        <Key android:keyLabel="่" android:codes="3656"/>
+        <Key android:keyLabel="า" android:codes="3634"/>
+        <Key android:keyLabel="ส" android:codes="3626"/>
+        <Key android:keyLabel="ว" android:codes="3623"/>
+        <Key android:keyLabel="ง" android:keyEdgeFlags="right" android:codes="3591"/>
+    </Row>
+
+    <Row>
+        <Key android:keyLabel="⇧" android:keyEdgeFlags="left" android:codes="-1"/>
+        <Key android:keyLabel="ผ" android:codes="3612"/>
+        <Key android:keyLabel="ป" android:codes="3611"/>
+        <Key android:keyLabel="แ" android:codes="3649"/>
+        <Key android:keyLabel="อ" android:codes="3629"/>
+        <Key android:keyLabel="ิ" android:codes="3636"/>
+        <Key android:keyLabel="ื" android:codes="3639"/>
+        <Key android:keyLabel="ท" android:codes="3607"/>
+        <Key android:keyLabel="ม" android:codes="3617"/>
+        <Key android:keyLabel="ใ" android:codes="3651"/>
+        <Key android:keyLabel="ฝ" android:keyEdgeFlags="right"  android:codes="3613"/>
+    </Row>
+
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:keyLabel="," android:keyWidth="10%p" android:keyEdgeFlags="left" android:codes="44"/>
+        <Key android:keyLabel="/" android:keyWidth="10%p" android:codes="47"/>
+        <Key android:keyLabel="SPACE" android:keyWidth="40%p" android:isRepeatable="true" android:codes="32"/>
+        <Key android:keyLabel="DEL" android:keyWidth="20%p" android:isRepeatable="true" android:codes="-5"/>
+        <Key android:keyLabel="DONE" android:keyWidth="20%p" android:keyEdgeFlags="right" android:codes="-4"/>
+
+
+    </Row>
+
+</Keyboard>
